@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>My Simple Web Page</title>
+</head>
+<body>
+
+    <h1>Example 1: Basic HTML Tags</h1>
+    <p>This is a paragraph of text. It contains some <strong>important</strong> details and <em>emphasized</em> wording    .</p>
+
+    <h2>My Favourite Things</h2>
+    <ul>
+        <li>Cooking</li>
+        <li>Travelling</li>
+        <li>Walking</li>
+    </ul>
+
+     <img src="reference.jpg" alt="A basic placeholder image">
+
+    <hr>
+
+    <h1>Example 2: Table Example</h1>
+    <table>
+        <caption>Monthly Sales Data</caption>
+
+        <thead>
+        <tr>
+            <th>Month</th>
+            <th>Revenue</th>
+            <th>Units Sold</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>January</td>
+            <td>$10,000</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$12,500</td>
+            <td>300</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>$22,500</th>
+                <th>550</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+     <h1>Example 3: Simple Form</h1>
+    <form action="/submit-form" method="POST">
+        
+          <h2>Contact Us</h2>
+        <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="user_name" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="user_email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="user_message" rows="4" cols="50"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe_to_newsletter" value="yes">
+            <label for="subscribe">Subscribe to our newsletter</label>
+        </div>
+        <br>
+
+        <div>
+            <button type="submit">Send Message</button>
+        </div>
+
+    
+    </form>
+
+</body>
+</html>
+
+

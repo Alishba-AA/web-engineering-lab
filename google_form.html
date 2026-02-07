@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Assessment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-wrapper">
+
+    <!-- Header Image -->
+    <div class="header-img">
+        <img src="reference.jpg" alt="Air University">
+    </div>
+
+    <!-- Form Title -->
+    <div class="form-header">
+        <h1>Student Assessment Form</h1>
+        <p>
+            The purpose of this form is to gather essential academic data, enabling the
+            Academic Support Team to provide you with the most relevant and customized
+            support for Semester 1.
+        </p>
+        <p class="note">
+            We maintain the highest standards of data privacy; all information is strictly
+            confidential and restricted to the Academic Support Team’s use.
+        </p>
+        <span class="required-note">* Indicates required question</span>
+    </div>
+
+    <form>
+        <div class="field">
+            <label>Email address <span>*</span></label>
+            <input type="email" required placeholder="yourname@example.com">
+        </div>
+
+        <div class="field">
+            <label>Full Name <span>*</span></label>
+            <input type="text" required>
+        </div>
+
+        <div class="field">
+            <label>Roll No <span>*</span></label>
+            <input type="text" required>
+        </div>
+
+        <div class="field">
+            <label>Program <span>*</span></label>
+            <div class="options">
+                <label><input type="checkbox"> Data Science (DS)</label>
+                <label><input type="checkbox"> Artificial Intelligence (AI)</label>
+                <label><input type="checkbox"> Software Engineering (SE)</label>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Programming Fundamentals Mid Term Marks <span>*</span></label>
+            <input type="number" required>
+        </div>
+
+        <div class="field">
+            <label>ICT Mid Term Marks <span>*</span></label>
+            <input type="number" required>
+        </div>
+
+        <div class="field">
+            <label>Applied Physics Mid Term Marks <span>*</span></label>
+            <input type="number" required>
+        </div>
+
+        <div class="field">
+            <label>Functional English Mid Term Marks <span>*</span></label>
+            <input type="number" required>
+        </div>
+
+        <div class="field">
+            <label>Islamic Studies & Ethics Mid Term Marks <span>*</span></label>
+            <input type="number" required>
+        </div>
+
+        <div class="field">
+            <label>Pak Studies Mid Term Marks <span>*</span></label>
+            <input type="number" required>
+        </div>
+
+        <div class="field">
+            <label>Intermediate Program</label>
+            <select>
+                <option selected disabled>Choose</option>
+                <option>Pre-Medical</option>
+                <option>Pre-Engineering</option>
+                <option>ICS</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Session</label>
+            <div class="options">
+                <label><input type="radio" name="session"> Morning</label>
+                <label><input type="radio" name="session"> Evening</label>
+            </div>
+        </div>
+
+        <div class="field">
+            <label>Comments (Optional)</label>
+            <textarea rows="4"></textarea>
+        </div>
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset" class="clear">Clear form</button>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
